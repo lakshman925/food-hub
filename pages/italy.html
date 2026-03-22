@@ -1,0 +1,276 @@
+<html>
+<head>
+<title>Italy Foods</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#f5f5f5;
+text-align:center;
+}
+
+header{
+background:#ff7043;
+color:black;
+padding:20px;
+font-size:32px;
+font-weight:bold;
+}
+
+.description{
+margin:20px;
+color:#555;
+}
+
+.container{
+width:80%;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.food-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+}
+
+.food-card{
+text-decoration:none;
+color:black;
+}
+
+.circle{
+width:120px;
+height:120px;
+border-radius:50%;
+overflow:hidden;
+margin:auto;
+border:4px solid #ff7043;
+}
+
+.circle img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+.food-name{
+margin-top:10px;
+font-weight:bold;
+}
+
+.contact{
+margin-top:30px;
+padding:15px;
+background:#333;
+color:white;
+}
+
+
+
+/* Search bar container */
+.search-box{
+    text-align:center;
+}
+
+/* Input field */
+.search-box input{
+    width:300px;
+    padding:10px;
+    font-size:16px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+/* Search button */
+.search-box button{
+    padding:10px 15px;
+    font-size:16px;
+    background-color:#4CAF50;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.search-box button:hover{
+    background-color:#45a049;
+}
+
+
+/* Remove default margin */
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+
+/* Menu bar background */
+.navbar{
+    background-color:#333;
+    overflow:hidden;
+}
+
+/* Menu links */
+.navbar a{
+    float:left;
+    color:white;
+    text-align:center;
+    padding:14px 20px;
+    text-decoration:none;
+    font-size:17px;
+}
+
+/* Hover effect */
+.navbar a:hover{
+    background-color:#ddd;
+    color:black;
+}
+
+/* Active link */
+.navbar a.active{
+    background-color:#04AA6D;
+    color:white;
+}
+
+.back-button {
+float:left;
+font-size: 32px;
+
+padding: 8px 12px;
+
+cursor: pointer;
+
+text-decoration:none;
+
+border: none;
+
+background-color: none;
+color:black;
+
+border-radius: 4px;
+
+}
+
+.back-button:hover {
+
+background-color: #ddd;
+}
+
+
+</style>
+
+</head>
+
+<body>
+<div class="header">
+<a href="../main.html" class="back-button">&#8592</a>
+
+<header>Italian Foods</header>
+<br>
+<div class="search-box">
+    <input type="text" placeholder="Enter your food items...">
+    <button type="submit" >Search</button>
+</div>
+ <br>
+
+
+<div class="container">
+
+<div class="food-grid">
+
+<a href="../recipes/pizzamargherita.html" class="food-card">
+<div class="circle">
+<img src="../images/foods/Pizza Margherita.WEBP">
+</div>
+<div class="food-name">Pizza Margherita</div>
+</a>
+
+<a href="../recipes/pastacarbonara.html" class="food-card">
+<div class="circle">
+<img src="../images/foods/Pasta Carbonara.WEBP">
+</div>
+<div class="food-name">Pasta Carbonara</div>
+</a>
+
+<a href="../recipes/lasagnaallabolognese.html" class="food-card">
+<div class="circle">
+<img src="../images/foods/Lasagna Alla Bolognese.WEBP">
+</div>
+<div class="food-name">Lasagna Alla Bolognese</div>
+</a>
+
+<a href="../recipes/risottoallamilanese.html" class="food-card">
+<div class="circle">
+<img src="../images/foods/Risotto Alla Milanese.WEBP">
+</div>
+<div class="food-name">Risotto Alla Milanese</div>
+
+</a><a href="../recipes/gelato.html" class="food-card">
+<div class="circle">
+<img src="../images/foods/Gelato.WEBP">
+</div>
+<div class="food-name">Gelato</div>
+</a>
+
+<a href="../recipes/arancini.html" class="food-card">
+<div class="circle">
+<img src="../images/foods/Arancini.WEBP">
+</div>
+<div class="food-name">Arancini</div>
+
+</a><a href="../recipes/tiramisu.html" class="food-card">
+<div class="circle">
+<img src="../images/foods/Tiramisu.WEBP">
+</div>
+<div class="food-name">Tiramisu</div>
+</a>
+
+<a href="../recipes/focaccia.html" class="food-card">
+<div class="circle">
+<img src="../images/foods/Focaccia.WEBP">
+</div>
+<div class="food-name">Focaccia</div>
+
+</a><a href="../recipes/bisteccaallafiorentina.html" class="food-card">
+<div class="circle">
+<img src="../images/foods/Bistecca Alla Florentina.WEBP">
+</div>
+<div class="food-name">Bistecca Alla Fiorentina</div>
+</a>
+
+<a href="../recipes/tortelliniinbrodo.html" class="food-card">
+<div class="circle">
+<img src="../images/foods/Tortellini in Brodo.WEBP">
+</div>
+<div class="food-name">Tortellini in Brodo</div>
+</a>
+
+<a href="../recipes/capresesalad.html" class="food-card">
+<div class="circle">
+<img src="../images/foods/Caprese Salad.WEBP">
+</div>
+<div class="food-name">Caprese Salad</div>
+</a>
+
+<a href="../recipes/polenta.html" class="food-card">
+<div class="circle">
+<img src="../images/foods/Polenta.WEBP">
+</div>
+<div class="food-name">Polenta</div>
+</a>
+</div>
+
+<div class="contact">
+Contact Us PHno:1234567890,mail:mail@id
+</div>
+
+
+</div>
+
+</body>
+</html>

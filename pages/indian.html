@@ -1,0 +1,276 @@
+<html>
+<head>
+<title>India Foods</title>
+
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+background:#f5f5f5;
+text-align:center;
+}
+
+header{
+background:#ff7043;
+color:black;
+padding:20px;
+font-size:32px;
+font-weight:bold;
+}
+
+.description{
+margin:20px;
+color:#555;
+}
+
+.container{
+width:80%;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.food-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+}
+
+.food-card{
+text-decoration:none;
+color:black;
+}
+
+.circle{
+width:120px;
+height:120px;
+border-radius:50%;
+overflow:hidden;
+margin:auto;
+border:4px solid #ff7043;
+}
+
+.circle img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+.food-name{
+margin-top:10px;
+font-weight:bold;
+}
+
+.contact{
+margin-top:30px;
+padding:15px;
+background:#333;
+color:white;
+}
+
+
+
+/* Search bar container */
+.search-box{
+    text-align:center;
+}
+
+/* Input field */
+.search-box input{
+    width:300px;
+    padding:10px;
+    font-size:16px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+/* Search button */
+.search-box button{
+    padding:10px 15px;
+    font-size:16px;
+    background-color:#4CAF50;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.search-box button:hover{
+    background-color:#45a049;
+}
+
+
+/* Remove default margin */
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+}
+
+/* Menu bar background */
+.navbar{
+    background-color:#333;
+    overflow:hidden;
+}
+
+/* Menu links */
+.navbar a{
+    float:left;
+    color:white;
+    text-align:center;
+    padding:14px 20px;
+    text-decoration:none;
+    font-size:17px;
+}
+
+/* Hover effect */
+.navbar a:hover{
+    background-color:#ddd;
+    color:black;
+}
+
+/* Active link */
+.navbar a.active{
+    background-color:#04AA6D;
+    color:white;
+}
+
+.back-button {
+float:left;
+font-size: 32px;
+
+padding: 8px 12px;
+
+cursor: pointer;
+
+text-decoration:none;
+
+border: none;
+
+background-color: none;
+color:black;
+
+border-radius: 4px;
+
+}
+
+.back-button:hover {
+
+background-color: #ddd;
+}
+
+
+</style>
+
+</head>
+
+<body>
+<div class="header">
+<a href="../main.html" class="back-button">&#8592</a>
+
+<header>Indian Foods</header>
+<br>
+<div class="search-box">
+    <input type="text" placeholder="Enter your food items...">
+    <button type="submit" >Search</button>
+</div>
+ <br>
+
+
+<div class="container">
+
+<div class="food-grid">
+
+<a href="../recipes/biryani.html" class="food-card">
+<div class="circle">
+<img src="../images/foods/Biryani.jpg">
+</div>
+<div class="food-name">Biryani</div>
+</a>
+
+<a href="../recipes/butterchicken.html" class="food-card">
+<div class="circle">
+<img src="../images/foods/Butter Chicken.WEBP">
+</div>
+<div class="food-name">Butter Chicken</div>
+</a>
+
+<a href="../recipes/masaladosa.html" class="food-card">
+<div class="circle">
+<img src="../images/foods/Masala Dosa.WEBP">
+</div>
+<div class="food-name">Masala Dosa</div>
+</a>
+
+<a href="../recipes/samosas.html" class="food-card">
+<div class="circle">
+<img src="../images/foods/Samosas.WEBP">
+</div>
+<div class="food-name">Samosas</div>
+
+</a><a href="../recipes/cholebhature.html" class="food-card">
+<div class="circle">
+<img src="../images/foods/Chole Bhature.WEBP">
+</div>
+<div class="food-name">Chole Bhature</div>
+</a>
+
+<a href="../recipes/panipuri.html" class="food-card">
+<div class="circle">
+<img src="../images/foods/Pani Puri.WEBP">
+</div>
+<div class="food-name">Pani Puri</div>
+
+</a><a href="../recipes/vadapav.html" class="food-card">
+<div class="circle">
+<img src="../images/foods/Vada Pav.WEBP">
+</div>
+<div class="food-name">Vada Pav</div>
+</a>
+
+<a href="../recipes/roganjosh.html" class="food-card">
+<div class="circle">
+<img src="../images/foods/Rogan Josh.WEBP">
+</div>
+<div class="food-name">Rogan Josh</div>
+
+</a><a href="../recipes/paneertikkamalai.html" class="food-card">
+<div class="circle">
+<img src="../images/foods/Paneer Tikka Malai.WEBP">
+</div>
+<div class="food-name">Paneer Tikka Malai</div>
+</a>
+
+<a href="../recipes/idlisambar.html" class="food-card">
+<div class="circle">
+<img src="../images/foods/Idli Sambar.WEBP">
+</div>
+<div class="food-name">Idli Sambar</div>
+</a>
+
+<a href="../recipes/dhokla.html" class="food-card">
+<div class="circle">
+<img src="../images/foods/Dhokla.WEBP">
+</div>
+<div class="food-name">Dhokla</div>
+</a>
+
+<a href="../recipes/gulabjamun.html" class="food-card">
+<div class="circle">
+<img src="../images/foods/Gulab Jamun.WEBP">
+</div>
+<div class="food-name">Gulab Jamun</div>
+</a>
+</div>
+
+<div class="contact">
+Contact Us PHno:1234567890,mail:mail@id
+</div>
+
+
+</div>
+
+</body>
+</html>
